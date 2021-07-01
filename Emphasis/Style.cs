@@ -8,12 +8,12 @@ namespace Emphasis
 {
 	internal static class Colors
 	{
-		internal static readonly Color Note = Color.FromRgb(0, 100, 15);
-		internal static readonly Color Todo = Color.FromRgb(255, 206, 59);
-		internal static readonly Color Temp = Color.FromRgb(0, 116, 216);
-		internal static readonly Color Hack = Color.FromRgb(188, 59, 0);
-		internal static readonly Color Fixme = Color.FromRgb(151, 0, 0);
-		internal static readonly Color Rant = Color.FromRgb(151, 0, 0);
+		internal static readonly Color Note = Color.FromRgb(0, 168, 69);
+		internal static readonly Color Todo = Color.FromRgb(255, 232, 132);
+		internal static readonly Color Temp = Color.FromRgb(0, 180, 237);
+		internal static readonly Color Hack = Color.FromRgb(223, 132, 0);
+		internal static readonly Color Fixme = Color.FromRgb(202, 0, 0);
+		internal static readonly Color Rant = Color.FromRgb(202, 0, 0);
 	}
 
 	[Export(typeof(EditorFormatDefinition))]

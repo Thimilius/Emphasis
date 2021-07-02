@@ -18,7 +18,6 @@ namespace Emphasis
 		private readonly IClassificationType m_CommentFixme;
 		private readonly IClassificationType m_CommentRant;
 
-
 		private bool m_IsClassificationRunning;
 		private readonly IClassifier m_Classifier;
 
@@ -26,7 +25,7 @@ namespace Emphasis
 		{
 			m_IsClassificationRunning = false;
 			m_Classifier = classifier;
-
+			
 			m_CommentNote = registry.GetClassificationType("Comment.Note");
 			m_CommentTodo = registry.GetClassificationType("Comment.Todo");
 			m_CommentTemp = registry.GetClassificationType("Comment.Temp");

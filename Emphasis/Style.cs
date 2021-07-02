@@ -31,7 +31,6 @@ namespace Emphasis
 
 			BackgroundCustomizable = false;
 			ForegroundColor = Colors.Note;
-			IsBold = true;
 		}
 	}
 
@@ -50,7 +49,6 @@ namespace Emphasis
 
 			BackgroundCustomizable = false;
 			ForegroundColor = Colors.Todo;
-			IsBold = true;
 		}
 	}
 
@@ -69,7 +67,6 @@ namespace Emphasis
 
 			BackgroundCustomizable = false;
 			ForegroundColor = Colors.Temp;
-			IsBold = true;
 		}
 	}
 
@@ -88,7 +85,6 @@ namespace Emphasis
 
 			BackgroundCustomizable = false;
 			ForegroundColor = Colors.Hack;
-			IsBold = true;
 		}
 	}
 
@@ -107,7 +103,6 @@ namespace Emphasis
 
 			BackgroundCustomizable = false;
 			ForegroundColor = Colors.Fixme;
-			IsBold = true;
 		}
 	}
 
@@ -126,7 +121,6 @@ namespace Emphasis
 
 			BackgroundCustomizable = false;
 			ForegroundColor = Colors.Rant;
-			IsBold = true;
 		}
 	}
 }

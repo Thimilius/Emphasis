@@ -10,7 +10,7 @@ namespace Emphasis
 	internal class Classifier : IClassifier
 	{
 		public event EventHandler<ClassificationChangedEventArgs> ClassificationChanged;
-
+		
 		private readonly IClassificationType m_CommentNote;
 		private readonly IClassificationType m_CommentTodo;
 		private readonly IClassificationType m_CommentTemp;
